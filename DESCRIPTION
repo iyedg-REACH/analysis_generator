@@ -1,12 +1,13 @@
-Package: lby_analysis_generator
-Title: What the Package Does (One Line, Title Case)
+Package: analysisGeneratoR
+Title: Generate Results Tables for Surveys.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Assil", "BEN-AMOR", , "assil.benamor@reach-initiative.org", role = c("aut", "cre"),
+           comment = c())
+    person("Iyed", "Ghedamsi", , "iyed.ghedamsi@reach-initiative.org", role = c("aut"),
+           comment = c())
+Description: Generate Results Tables for Surveys.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
@@ -17,8 +18,18 @@ Imports:
     magrittr,
     openxlsx,
     purrr,
+    stringr,
     surveyweights (>= 0.2.0)
 Remotes: 
     impact-initiatives/surveyweights,
     impact-initiatives/koboquest,
     impact-initiatives/hypegrammaR
+Suggests: 
+    here,
+    httr2,
+    janitor,
+    testthat (>= 3.0.0)
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Config/testthat/edition: 3
