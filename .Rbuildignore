@@ -1,3 +1,7 @@
 ^lby_analysis_generator\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^LICENSE\.md$
