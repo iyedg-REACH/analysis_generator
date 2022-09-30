@@ -10,3 +10,15 @@ License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    hypegrammaR (>= 0.2.4),
+    koboquest (>= 1.0.1),
+    magrittr,
+    openxlsx,
+    purrr,
+    surveyweights (>= 0.2.0)
+Remotes: 
+    impact-initiatives/surveyweights,
+    impact-initiatives/koboquest,
+    impact-initiatives/hypegrammaR
