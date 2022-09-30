@@ -1,11 +1,21 @@
 Package: analysisGeneratoR
-Title: Generate Results Tables for Surveys.
+Title: Generate Results Tables for Surveys
 Version: 0.0.0.9000
 Authors@R: 
-    person("Assil", "BEN-AMOR", , "assil.benamor@reach-initiative.org", role = c("aut", "cre"),
-           comment = c())
-    person("Iyed", "Ghedamsi", , "iyed.ghedamsi@reach-initiative.org", role = c("aut"),
-           comment = c())
+    c(
+      person(
+        given = "Assil",
+        family = "BEN-AMOR",
+        role = c("aut", "cre"),
+        email = "assil.benamor@reach-initiative.org"
+      ),
+      person(
+        given = "Iyed",
+        family = "Ghedamsi",
+        role = c("aut"),
+        email = "iyed.ghedamsi@reach-initiative.org"
+      )
+    )
 Description: Generate Results Tables for Surveys.
 License: GPL (>= 3)
 Encoding: UTF-8
